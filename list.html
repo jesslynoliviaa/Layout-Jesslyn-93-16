@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout HTML dan CSS</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="list.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="banner - Welc.jpg" alt="welcome" class="welcome">
+        </div>
+        <div class="topnav">
+            <a href="index.html">Biodata</a>
+            <a href="table.html">Table</a>
+            <a href="list.html">List</a>
+            <a href="sts.html">STS</a>
+        </div>
+        <!-- Bagian Content -->
+        <!--OrderList (ol): tipe list angka dan huruf (1, A, a, I, i)
+         Unorderlist (ul): tipe list simbol (disc, circle, square)-->
+        <h3>List Makanan</h3>
+         <ol type="A">
+            <li>Ayam Goreng</li>
+            <li>Nasi Goreng</li>
+            <li>Soto Ayam</li>
+         </ol>
+
+        <h3>List Minuman</h3>
+         <ul>
+            <li>Jus Jeruk</li>
+            <li>Air Mineral</li>
+            <li>Teh Manis</li>
+         </ul>
+
+        <!--Penggabungan Ol dan Ul-->
+         <h3>List Makanan dan Minuman</h3>
+         <ol type="1">
+            <li>Makanan</li>
+            <ul>
+                <li>Nasi Goreng</li>
+                <li>Ayam Bakar</li>
+                <li>Nasi Putih</li>
+            </ul>
+            <li>Minuman</li>
+            <ul>
+                <li>Jus Jeruk</li>
+                <li>Teh Tawar</li>
+                <li>Air Putih</li>
+            </ul>
+         </ol>
+
+        <h1>Daftar Buah-Buahan</h1>
+            <ol>
+                <li>Jeruk</li>
+                <li>Semangka</li>
+                <li>Mangga</li>
+                <li>Lemon</li>
+                <li>Melon</li>
+                <li class="stroberi">Stroberi</li>
+                <li>Anggur</li>
+                <li>Apel</li>
+                <li>Kiwi</li>
+                <li>Pisang</li>
+            </ol>
+
+        <h1>Lorem Ipsum</h1>
+            <ul>
+                <li>lorem ipsum dolor sit amet consectetur adipiscing elit reprehenderit corrupti</li>
+                <li>lorem ipsum dolor sit amet consectetur adipiscing elit reprehenderit corrupti</li>
+                <li>lorem ipsum dolor sit amet consectetur adipiscing elit reprehenderit corrupti</li>
+            </ul>
+
+        <div class="icon"> 
+            <h1>Macam-macam Icon</h1>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M341.8 72.6C329.5 61.2 310.5 61.2 298.3 72.6L74.3 280.6C64.7 289.6 61.5 303.5 66.3 315.7C71.1 327.9 82.8 336 96 336L112 336L112 512C112 547.3 140.7 576 176 576L464 576C499.3 576 528 547.3 528 512L528 336L544 336C557.2 336 569 327.9 573.8 315.7C578.6 303.5 575.4 289.5 565.8 280.6L341.8 72.6zM304 384L336 384C362.5 384 384 405.5 384 432L384 528L256 528L256 432C256 405.5 277.5 384 304 384z"/></svg>
+                    Ini icon rumah
+                </li>
+                <li>
+                    <i class="fa-solid fa-camera"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M213.1 128.8L202.7 160L128 160C92.7 160 64 188.7 64 224L64 480C64 515.3 92.7 544 128 544L512 544C547.3 544 576 515.3 576 480L576 224C576 188.7 547.3 160 512 160L437.3 160L426.9 128.8C420.4 109.2 402.1 96 381.4 96L258.6 96C237.9 96 219.6 109.2 213.1 128.8zM320 256C373 256 416 299 416 352C416 405 373 448 320 448C267 448 224 405 224 352C224 299 267 256 320 256z"/></svg>
+                    Ini icon kamera
+                </li>
+                <li>
+                    <i class="fa-solid fa-calendar"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M224 64C206.3 64 192 78.3 192 96L192 128L160 128C124.7 128 96 156.7 96 192L96 240L544 240L544 192C544 156.7 515.3 128 480 128L448 128L448 96C448 78.3 433.7 64 416 64C398.3 64 384 78.3 384 96L384 128L256 128L256 96C256 78.3 241.7 64 224 64zM96 288L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 288L96 288z"/></svg>
+                    Ini icon kalender
+                </li>
+                <li>
+                    <i class="fa-solid fa-cloud"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M32 400C32 479.5 96.5 544 176 544L480 544C550.7 544 608 486.7 608 416C608 364.4 577.5 319.9 533.5 299.7C540.2 286.6 544 271.7 544 256C544 203 501 160 448 160C430.3 160 413.8 164.8 399.6 173.1C375.5 127.3 327.4 96 272 96C192.5 96 128 160.5 128 240C128 248 128.7 255.9 129.9 263.5C73 282.7 32 336.6 32 400z"/></svg>
+                    Ini icon awan
+                </li>
+                <li>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M144 224C161.7 224 176 238.3 176 256L176 512C176 529.7 161.7 544 144 544L96 544C78.3 544 64 529.7 64 512L64 256C64 238.3 78.3 224 96 224L144 224zM334.6 80C361.9 80 384 102.1 384 129.4L384 133.6C384 140.4 382.7 147.2 380.2 153.5L352 224L512 224C538.5 224 560 245.5 560 272C560 291.7 548.1 308.6 531.1 316C548.1 323.4 560 340.3 560 360C560 383.4 543.2 402.9 521 407.1C525.4 414.4 528 422.9 528 432C528 454.2 513 472.8 492.6 478.3C494.8 483.8 496 489.8 496 496C496 522.5 474.5 544 448 544L360.1 544C323.8 544 288.5 531.6 260.2 508.9L248 499.2C232.8 487.1 224 468.7 224 449.2L224 262.6C224 247.7 227.5 233 234.1 219.7L290.3 107.3C298.7 90.6 315.8 80 334.6 80z"/></svg>
+                    Ini icon jempol
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Jesslyn 93/16</p>
+        </div>
+    </body>
+</html>
